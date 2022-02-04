@@ -1,0 +1,50 @@
+$primary-color: #a7a0a0;
+$error-color: #e63946;
+$border-radius: 10px;
+
+input {
+  border: 1px solid rgba($primary-color, 0.8);
+  border-radius: $border-radius;
+  padding: 1rem 1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  margin-top: 12px!important;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.input-error {
+  border-color: $error-color;
+}
+
+.correct-input{
+  background: green;
+  height: 10px;
+  width: 10px;
+}
+
+.error {
+  color: $error-color;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+}
+.error::before {
+    content: "";
+    display: block;
+    background: url("../../assets/images/times-circle-regular.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+
+.dcma_stepper {
+  padding-top: 110px;
+}
+.css-heg063-MuiTabs-flexContainer button {
+  margin: 0 140px 0 20px;
+}
